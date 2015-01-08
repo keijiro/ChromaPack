@@ -10,7 +10,6 @@
     #include "UnityCG.cginc"
 
     sampler2D _MainTex;
-    float4 _MainTex_TexelSize;
 
     half3 YCbCrtoRGB(half y, half cb, half cr)
     {
@@ -45,7 +44,6 @@
             CGPROGRAM
             #pragma vertex vert_img
             #pragma fragment frag
-            #pragma glsl
             ENDCG
         }
     } 
