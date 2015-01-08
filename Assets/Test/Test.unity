@@ -85,7 +85,7 @@ GameObject:
   - 33: {fileID: 173739461}
   - 23: {fileID: 173739460}
   m_Layer: 0
-  m_Name: ChromaMip
+  m_Name: ChromaPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -197,7 +197,7 @@ GameObject:
   - 33: {fileID: 786635653}
   - 23: {fileID: 786635652}
   m_Layer: 0
-  m_Name: ChromaMip
+  m_Name: ChromaPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +253,7 @@ GameObject:
   - 33: {fileID: 859221032}
   - 23: {fileID: 859221031}
   m_Layer: 0
-  m_Name: ChromaMip
+  m_Name: ChromaPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,7 +583,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: .9609375
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -629,7 +629,7 @@ GameObject:
   - 33: {fileID: 2141129041}
   - 23: {fileID: 2141129040}
   m_Layer: 0
-  m_Name: ChromaMip
+  m_Name: ChromaPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

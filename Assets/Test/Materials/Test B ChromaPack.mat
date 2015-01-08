@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Test A ChromaMip
+  m_Name: Test B ChromaPack
   m_Shader: {fileID: 4800000, guid: 75b00972c4d744055aa2b973bafe9e27, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 45d3c52e07f3f49b0ad9a12f12f42799, type: 3}
+          m_Texture: {fileID: 2800000, guid: 577822b284b0e49abaa69d0af2a1ede2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
