@@ -24,7 +24,6 @@ ChromaPack supports 1-bit alpha transparency. When importing images that has alp
 [Wikipedia]: http://en.wikipedia.org/wiki/Chroma_subsampling
 [Screenshot]: http://keijiro.github.io/ChromaPack/screenshot.png
 [Converted]: http://keijiro.github.io/ChromaPack/converted.png
-[Cutout]: http://keijiro.github.io/ChromaPack/cutout.png
 
 License
 -------
