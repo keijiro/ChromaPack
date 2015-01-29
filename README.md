@@ -1,25 +1,25 @@
 ChromaPack
 ==========
 
-ChromaPack is a lossy texture compression plugin for Unity. It reduces the memory footprint of an image to 12-bits per pixel (x2.67 compression for 32bit RGBA image) using [chroma subsampling technique][Wikipedia] and doesn’t introduce noticeable artifacts to human eyes. The algorithm is quite simple and even previous-generation mobile GPUs could decode it on the fly.
+ChromaPack is a lossy texture compression plugin for Unity. By using [chroma subsampling technique][Wikipedia], it reduces the memory requirements of an image to 12-bits per pixel (x2.67 compression for 32bit RGBA image) without introducing noticeable artifacts. The algorithm is quite simple and even previous-generation mobile GPUs can decode it on the fly.
 
 ![Main Screenshot][Screenshot]
 
-*The screenshot above shows the compression quality of ChromaPack. The upper row shows the original images, and the bottom row shows the compressed images. You can notice that there is very little color bleeding on the cheek of the second image, although the difference is not significant.*
+*The screenshot above shows the compression quality of ChromaPack. The upper row shows the original images, and the bottom row shows the compressed images. You may notice that there is very little color bleeding at some parts of the image, although the difference is not significant.*
 
 Basic Usage
 -----------
 
-The ChromaPackProcessor script automatically converts textures which has the suffix “CP” at the end of the file name. After adding the suffix to an existing file or importing a file with the suffix, it will be converted into a ChromaPack encoded texture asset.
+The ChromaPackProcessor script automatically converts the image files which has the suffix “CP” at the end of the file name. After adding the suffix to an existing file or importing a new file with the suffix, it converts the file into a ChromaPack encoded texture asset.
 
 ![Converted Image][Converted]
 
-Use the “ChromaPack/Opaque” shader to draw the image. It decodes the image on the fly and draws it as an opaque element.
+Use the “ChromaPack/Opaque” shader to draw the image. It decodes and displays the image on the fly.
 
 1-Bit Alpha Transparency
 ------------------------
 
-ChromaPack supports 1-bit alpha transparency. When importing images that has alpha channel, the ChromaPackProcessor script detects it and 1-bit alpha information is embedded into the converted image. Use the “ChromaPack/Cutout” shader to draw it with transparency.
+ChromaPack supports 1-bit alpha transparency. When importing images with alpha channel, it adds transparency information to the converted texture asset. Use the “ChromaPack/Cutout” shader in order to display it with transparency.
 
 [Wikipedia]: http://en.wikipedia.org/wiki/Chroma_subsampling
 [Screenshot]: http://keijiro.github.io/ChromaPack/screenshot.png
