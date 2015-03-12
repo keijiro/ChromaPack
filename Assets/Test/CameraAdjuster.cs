@@ -11,7 +11,7 @@ public class CameraAdjuster : MonoBehaviour
         if (screenHeight != Screen.height)
         {
             screenHeight = Screen.height;
-            camera.orthographicSize = (float)screenHeight / 512;
+            GetComponent<Camera>().orthographicSize = (float)screenHeight / 512;
         }
     }
 }
