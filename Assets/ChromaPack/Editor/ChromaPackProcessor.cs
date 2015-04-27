@@ -98,5 +98,6 @@ class ChromaPackProcessor : AssetPostprocessor
         }
 
         texture.SetPixels(pixels);
+        importer.isReadable = false;
     }
 }
